@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Periodic Table</title>
+  <title>Periodic Table Task</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -48,6 +48,21 @@
         display: flex; 
         justify-content: flex-end; 
         flex-direction: column; 
+        text-align: center;
+    }
+td{
+     position: relative;
+}
+    .txt-btm{
+      font-size: 12px;
+        margin-top: 12px;
+        position: absolute;
+    }
+    .line{
+        position: absolute;
+        margin-top: 3px;
+        margin-left: -28px;
+        font-size: 13px;
     }
   </style>
 </head>
@@ -66,11 +81,11 @@
       <td class="empty text-setting" >2A</td>
       <td class="empty" colspan="7"></td>
       <td class="empty" colspan="3" ><p>&copy;2012 Todd Helmenstine</p><p>About Chemistry</p></td>
-      <td class="empty " >3A</td>
+      <td class="empty " ><span class="txt-btm">3A</span></td>
        <td class="empty text-setting" >4A</td>
-        <td class="empty text-" >5A</td>
+        <td class="empty text-" ><span  class="txt-btm">5A</span></td>
         <td class="empty text-setting" >6A</td>
-        <td class="empty text-" >7A</td>
+        <td class="empty " ><span  class="txt-btm">7A</span></td>
       <td><span>2</span><br><h4>He</h4><p>4.002602</p></td>
       
     </tr>
@@ -97,15 +112,15 @@
       <td><span>11</span><br><h4>Na</h4><p>22.98977</p></td>
       <td><span>12</span><br><h4>Mg</h4><p>24.305</p></td>
       <td class="empty text-setting" >3B</td>
-      <td class="empty " >5B</td>
+      <td class="empty " ><span  class="txt-btm">5B</span></td>
       <td class="empty text-setting" >6B</td>
-      <td class="empty " >7B</td>
+      <td class="empty " ><span  class="txt-btm">7B</span></td>
       <td class="empty text-setting" >7B</td>
-      <td class="empty " >_____</td>
+      <td class="empty " ><span class=" line"> ________</span></td>
       <td class="empty text-setting" >8B</td>
-      <td class="empty " >_____</td>
+      <td class="empty " ><span class=" line"> ________</span></td>
       <td class="empty text-setting" >1B</td>
-      <td class="empty ">2B</td>
+      <td class="empty "><span class="txt-btm">2B</span></td>
       <td><span>13</span><br><h4>Al</h4><p>26.981538</p></td>
       <td><span>14</span><br><h4>Si</h4><p>28.0855</p></td>
       <td><span>15</span><br><h4>P</h4><p>30.973762</p></td>
